@@ -1,0 +1,24 @@
+h1{
+	text-align: center;
+	
+	padding: 50px;
+}
+/*https://unsplash.com/photos/NeTPASr-bmQ*/
+body{
+	background-image: url(pic/josh-appel-NeTPASr-bmQ-unsplash.jpg);
+	background-size: cover;
+	background-color: rgba(255,255,255,0.3);
+	background-blend-mode: lighten;
+	font-family: 'Syne Mono', monospace;
+}
+table{
+	text-align: center;
+	padding: 10px;
+	align-items: center;
+	margin: auto;
+	padding-top: 5%;
+}
+p{
+	text-align: center;
+	 font-size: large;
+}

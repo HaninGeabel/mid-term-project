@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="Convert.css">
+	<script type="text/javascript" src="Convert.js"></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet">
+	<title>Convert</title>
+</head>
+<body>
+	<h1>Convert your money</h1>
+	<p id="current_Date"></p>
+	<form >
+	<table>
+		
+		<tr><td><label>Currency on hand</label></td> <td>Amount</td><td>ConvertTo:</td><td>Conversion Value</td></tr>
+		
+		<tr>
+			<td><select id="money_type" name="convertFrom ">
+					<option value ="Euro">Euro</option>
+					<option value ="USD">US Dollar</option>
+					<option value ="CND">Canadian Dollar</option>
+					<option value ="Bitcoin">Bitcoin Digital Currency</option>
+					<option value ="Ethereum">Ethereum Digital Currency</option>
+				</select>
+			</td>
+			<td><input type="number" name="Amount" id="Amount" min="0" onchange="output(this.value);"></td>
+			<td>
+				<select id="convertTo" name="convertTo">
+					<option value ="Euro">Euro</option>
+					<option value ="USD">US Dollar</option>
+					<option value ="CND">Canadian Dollar</option>
+					<option value ="Bitcoin">Bitcoin Digital Currency</option>
+					<option value ="Ethereum">Ethereum Digital Currency</option>
+				</select>
+			</td>
+
+			<td>
+			<span>	<input type="text" id="ConvertionValue1"></span>
+				
+			</td>
+	    </tr>
+</table>
+		</form>
+    
+</body>
+</html>
